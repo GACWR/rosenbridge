@@ -193,3 +193,18 @@ of the processor.  No malicious intent is implied.
 
 project:rosenbridge is a research effort from Christopher Domas
 ([@xoreaxeaxeax](https://twitter.com/xoreaxeaxeax)).
+
+
+# Notes for range test
+Pass
+```
+gcc ./demo.c -o demo -m32
+```
+
+```
+sudo apt-get install gcc-multilib
+```
+
+https://stackoverflow.com/questions/54082459/fatal-error-bits-libc-header-start-h-no-such-file-or-directory-while-compili/54082790
+
+https://github.com/xoreaxeaxeax/rosenbridge/issues/5
